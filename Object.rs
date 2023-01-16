@@ -1,4 +1,4 @@
-# Create a struct that represents an object: This struct should contain the object's key, data, and metadata.
+# \\Create a struct that represents an object: This struct should contain the object's key, data, and metadata.
 
 struct Object {
     key: String,
@@ -6,7 +6,7 @@ struct Object {
     metadata: HashMap<String, String>,
 }
 
-# Implement a struct that represents a bucket: This struct should contain a vector of objects, and methods for creating, deleting and listing objects.
+# \\Implement a struct that represents a bucket: This struct should contain a vector of objects, and methods for creating, deleting and listing objects.
 
 struct Bucket {
     objects: Vec<Object>,
@@ -24,8 +24,7 @@ struct Bucket {
     }
 }
 
-#Implement a struct that represents a storage service: This struct should contain a vector of buckets, and methods for creating, deleting and listing buckets.
-
+#//Implement a struct that represents a storage service: This struct should contain a vector of buckets, and methods for creating, deleting and listing buckets./
 struct StorageService {
     buckets: Vec<Bucket>,
 
